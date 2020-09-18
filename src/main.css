@@ -1,0 +1,15 @@
+:root {
+  --bgColor: #8edea0;
+  --buttonColor: #80dede;
+  --blackColor: #000;
+}
+
+body {
+  background-color: var(--bgColor);
+}
+
+button {
+  border: 2px solid var(--blackColor);
+  padding: 1rem;
+  background-color: var(--buttonColor);
+}
